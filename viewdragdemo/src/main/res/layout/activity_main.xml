@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.viewdragdemo.SelfDragDemo xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.viewdragdemo.MainActivity">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff00"
+        android:alpha="0.3"
+        android:text="drag"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff00"
+        android:alpha="0.3"
+        android:text="drag"
+        android:layout_marginStart="10dp"
+        android:textColor="#000"
+        android:layout_gravity="start"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff00"
+        android:alpha="0.3"
+        android:text="drag"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        />
+</com.example.viewdragdemo.SelfDragDemo>
